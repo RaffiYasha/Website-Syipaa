@@ -1,0 +1,9 @@
+Taruh foto kamu di folder ini dengan nama berikut:
+
+foto-utama.jpg
+foto-kecil.jpg
+perjalanan.jpg
+kopi.jpg
+senja.jpg
+
+Kalau fotomu memakai format PNG atau WebP, ubah juga nama file yang sesuai di atribut src pada index.html.
