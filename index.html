@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f0e6">
+  <title>Halaman-Halaman Kita — Sebuah Ruang Kenangan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <header class="wrap topbar">
+    <a class="brand" href="#beranda" aria-label="Halaman-Halaman Kita, beranda"><span class="brand-mark">✳</span> halaman-halaman kita</a>
+    <nav class="nav" aria-label="Navigasi utama">
+      <a href="#cerita">Cerita</a>
+      <a href="#surat">Surat kecil</a>
+      <span class="nav-note">Sebuah ruang untuk pulang</span>
+    </nav>
+  </header>
+
+  <main>
+    <section class="wrap hero" id="beranda">
+      <div>
+        <div class="eyebrow">Album yang tak pernah selesai</div>
+        <h1>Beberapa hal<br>terlalu indah<br>untuk <em>dilupakan.</em></h1>
+        <p class="hero-copy">Tentang hari-hari sederhana, tawa yang tidak direncanakan, dan orang-orang yang membuat semuanya terasa berarti.</p>
+        <div class="hero-actions">
+          <a class="button" href="#cerita">Buka album <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#surat">Ada surat untukmu <span>♡</span></a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Kolase foto kenangan">
+        <div class="photo-main">
+          <img src="images/foto-utama.jpg" alt="Foto kenangan utama" fetchpriority="high">
+        </div>
+        <div class="photo-small"><img src="images/foto-kecil.jpg" alt="Foto kenangan kecil"></div>
+      </div>
+    </section>
+
+    <div class="memory-strip" aria-label="Kumpulan kenangan">
+      <div class="wrap strip-inner"><span>foto-foto yang sedikit buram</span><b>✳</b><span>percakapan sampai lupa waktu</span><b>✳</b><span>rumah yang kita temukan</span><b>✳</b><span>dan semua yang di antaranya</span></div>
+    </div>
+
+    <section class="wrap section" id="cerita">
+      <div class="section-heading">
+        <div><div class="eyebrow">Catatan yang tersimpan</div><h2>Yang masih terasa<br>seperti kemarin.</h2></div>
+        <p>Tak harus momen besar. Kadang, justru hal kecil yang tinggal paling lama.</p>
+      </div>
+      <div class="grid">
+        <article class="memory-card">
+          <div class="card-image"><img src="images/perjalanan.jpeg" alt="Kenangan perjalanan" loading="lazy"></div>
+          <div class="card-body"><div class="card-meta"><span>Perjalanan kecil</span><span>Juni 202?</span></div><h3>Tersesat, lalu tertawa</h3><p>Jalan yang salah, lagu yang sama diputar tiga kali, dan kita yang tidak buru-buru pulang.</p></div>
+        </article>
+        <article class="memory-card">
+          <div class="card-image"><img src="images/kopi.jpeg" alt="Kenangan minum kopi" loading="lazy"></div>
+          <div class="card-body"><div class="card-meta"><span>Hari biasa</span><span>Agustus 2024</span></div><h3>Kopi, dan banyak cerita</h3><p>Katanya cuma sebentar. Tahu-tahu lampu kedai sudah berganti jadi tanda mau tutup.</p></div>
+        </article>
+        <article class="memory-card">
+          <div class="card-image"><img src="images/senja.jpeg" alt="Kenangan saat senja" loading="lazy"></div>
+          <div class="card-body"><div class="card-meta"><span>Menjelang senja</span><span>Desember 202?</span></div><h3>Diam-diam menikmati</h3><p>Tidak banyak kata sore itu. Tapi rasanya seperti sudah saling mengerti segalanya.</p></div>
+                </article>
+        <article class="memory-card">
+          <div class="card-image"><img src="images/kenangan-keempat.jpeg" alt="Kenangan keempat" loading="lazy"></div>
+          <div class="card-body"><div class="card-meta"><span>Momen kecil</span><span>Hari yang kita ingat</span></div><h3>Satu lagi yang kita simpan</h3><p>Hal sederhana yang mungkin terlihat biasa, tapi selalu punya tempat tersendiri dalam cerita kita.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="note-section">
+      <div class="wrap note">
+        <div class="note-mark">“</div>
+        <blockquote>Kenangan bukan tentang ingin kembali. Tapi tentang bersyukur pernah ada di sana.</blockquote>
+        <cite>disimpan baik-baik, oleh kita</cite>
+      </div>
+    </section>
+
+    <section class="wrap letter-section" id="surat">
+      <div>
+        <div class="eyebrow">Sepucuk surat</div>
+        <h2>Untuk kamu,<br>di hari yang lain.</h2>
+        <p>Barangkali suatu hari kita lupa detailnya. Semoga halaman ini membantu kita ingat rasanya.</p>
+      </div>
+      <div class="letter-card">
+        <div class="letter-date">Ditulis pada suatu malam yang tenang</div>
+        <p>Kalau nanti hari-hari terasa ramai, ingat ya kita pernah duduk diam, tanpa perlu jadi siapa-siapa. Dan anehnya, itu sudah lebih dari cukup.</p>
+        <p class="signature">Sampai kapan pun, bagian ini milik kita.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="wrap footer-inner"><span>© 2024 · disimpan dengan penuh sayang</span><span>dibuat untuk mengenang ✳</span></div></footer>
+</body>
+</html>
+
